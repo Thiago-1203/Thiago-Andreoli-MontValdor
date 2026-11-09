@@ -11,15 +11,15 @@
 </head>
 <body>
 
-<header>
+<header class="encabezado">
   <div class="barra-superior">
     <div class="logo">MONT <span>VALDOR</span></div>
     <nav aria-label="Menú principal">
-      <ul>
+      <ul class="menu">
         <li><a href="#presentacion">Inicio</a></li>
         <li><a href="#informacion">Información</a></li>
         <li><a href="#galeria">Galería</a></li>
-        <li><a href="#enlace-externo">Contacto</a></li>
+        <li><a href="#contacto">Contacto</a></li>
       </ul>
     </nav>
   </div>
@@ -31,8 +31,8 @@
 
 <main>
 
-  <section id="presentacion">
-    <div class="contenedor">
+  <section id="presentacion" class="seccion seccion--primaria">
+    <div class="contenedor contenedor--angosto">
       <h2>Bienvenido a Mont Valdor</h2>
       <p>
         Mont Valdor nació de la idea de que un perfume no es solo un aroma, sino una forma de
@@ -44,10 +44,10 @@
     </div>
   </section>
 
-  <section id="informacion">
+  <section id="informacion" class="seccion seccion--clara">
     <div class="contenedor">
       <h2>Sobre la marca</h2>
-      <div class="info-grid">
+      <div class="info">
         <div>
           <h3>Nuestra historia</h3>
           <p>
@@ -62,70 +62,106 @@
             momentos del día.
           </p>
         </div>
-        <img src="bleu-chanel-lifestyle.png" alt="Perfumes de referencia usados como inspiración para los ingredientes de Mont Valdor">
+        <img class="info__imagen" src="bleu-chanel-lifestyle.png" alt="Frascos de perfume Bleu de Chanel sobre un fondo azul oscuro, imagen de referencia">
       </div>
     </div>
   </section>
 
-  <section id="galeria">
+  <section id="galeria" class="seccion seccion--suave">
     <div class="contenedor">
-      <h2>Galería</h2>
-      <div class="galeria-grid">
-        <figure>
-          <img src="black-mist.png" alt="Perfume Mont Valdor, Black Mist">
-          <figcaption>Black Mist</figcaption>
-        </figure>
-        <figure>
-          <img src="deep-ocean.png" alt="Perfume Mont Valdor, Deep Ocean">
-          <figcaption>Deep Ocean</figcaption>
-        </figure>
-        <figure>
-          <img src="wood-neroli.png" alt="Perfume Mont Valdor, Wood Neroli">
-          <figcaption>Wood Neroli</figcaption>
-        </figure>
+      <h2>Galería de fragancias</h2>
+      <div class="tarjetas">
+
+        <article class="tarjeta">
+          <img class="tarjeta__imagen" src="black-mist.png" alt="Frasco negro del perfume Mont Valdor Black Mist">
+          <div class="tarjeta__cuerpo">
+            <h3 class="tarjeta__titulo">Black Mist</h3>
+            <p class="tarjeta__texto">
+              Una fragancia intensa y misteriosa, pensada para las noches. Combina notas de
+              cuero, incienso y pimienta negra sobre un fondo amaderado que se siente en cada gota.
+            </p>
+            <a class="boton" href="#contacto">Consultar</a>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <img class="tarjeta__imagen" src="deep-ocean.png" alt="Frasco azul del perfume Mont Valdor Deep Ocean">
+          <div class="tarjeta__cuerpo">
+            <h3 class="tarjeta__titulo">Deep Ocean</h3>
+            <p class="tarjeta__texto">
+              Fresca y marina, inspirada en la profundidad del mar. Abre con cítricos y sal
+              marina y deja un fondo de almizcle limpio, ideal para el día a día y para el verano.
+            </p>
+            <a class="boton" href="#contacto">Consultar</a>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <img class="tarjeta__imagen" src="wood-neroli.png" alt="Frasco ámbar del perfume Mont Valdor Wood Neroli">
+          <div class="tarjeta__cuerpo">
+            <h3 class="tarjeta__titulo">Wood Neroli</h3>
+            <p class="tarjeta__texto">
+              Cálida y elegante, mezcla la madera de cedro con la delicadeza de la flor de
+              neroli. Un aroma suave pero con carácter, perfecto para ocasiones especiales.
+            </p>
+            <a class="boton" href="#contacto">Consultar</a>
+          </div>
+        </article>
+
       </div>
     </div>
   </section>
 
-  <section id="destacados">
+  <section id="destacados" class="seccion seccion--primaria">
     <div class="contenedor">
       <h2>Datos destacados</h2>
-      <div class="destacados-grid">
-        <div>
-          <h3>+15 años</h3>
-          <p>de trayectoria en el desarrollo de fragancias de autor.</p>
+      <div class="datos">
+        <div class="dato">
+          <h3 class="dato__titulo">+15 años</h3>
+          <p class="dato__texto">de trayectoria en el desarrollo de fragancias de autor.</p>
         </div>
-        <div>
-          <h3>Ingredientes premium</h3>
-          <p>seleccionados de proveedores especializados en perfumería fina.</p>
+        <div class="dato">
+          <h3 class="dato__titulo">Ingredientes premium</h3>
+          <p class="dato__texto">seleccionados de proveedores especializados en perfumería fina.</p>
         </div>
-        <div>
-          <h3>Ediciones limitadas</h3>
-          <p>frascos numerados que no vuelven a producirse una vez agotados.</p>
+        <div class="dato">
+          <h3 class="dato__titulo">Ediciones limitadas</h3>
+          <p class="dato__texto">frascos numerados que no vuelven a producirse una vez agotados.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="enlace-externo">
+  <section id="enlace-externo" class="seccion seccion--acento">
     <div class="contenedor">
       <h2>Seguí conociendo el mundo del perfume</h2>
       <p>
         Si te interesa la historia y la composición de las fragancias, podés visitar el
         artículo de Wikipedia sobre el perfume para conocer más sobre su origen y elaboración.
       </p>
-      <a href="https://es.wikipedia.org/wiki/Perfume" target="_blank" rel="noopener noreferrer">
+      <a class="enlace-externo" href="https://es.wikipedia.org/wiki/Perfume" target="_blank" rel="noopener noreferrer">
         Leer más en Wikipedia →
       </a>
     </div>
   </section>
 
+  <section id="contacto" class="seccion seccion--secundaria">
+    <div class="contenedor contenedor--angosto">
+      <h2>Contacto</h2>
+      <p>
+        ¿Querés conocer más sobre alguna fragancia o hacer un pedido? Escribinos y te
+        respondemos a la brevedad.
+      </p>
+      <a class="boton" href="mailto:contacto@montvaldor.com">contacto@montvaldor.com</a>
+    </div>
+  </section>
+
 </main>
 
-<footer>
+<footer class="pie">
   <p>Thiago — Diseño y Desarrollo Web</p>
   <p>Año 2026</p>
-  <p class="frase">"Mont Valdor — elegancia en cada gota."</p>
+  <p class="pie__frase">"Mont Valdor — elegancia en cada gota."</p>
 </footer>
 
 </body>
