@@ -1,0 +1,19 @@
+PRESENTACIÓN DEL PROYECTO — MONT VALDOR
+
+Tema elegido
+Elegí el mundo de los perfumes porque es un tema que me gusta y me resultó más motivador que uno genérico. Para trabajarlo creé Mont Valdor, una marca ficticia de fragancias de autor.
+
+Objetivo del sitio
+Quise comunicar la identidad de la marca: su historia, sus ingredientes, su colección y algunos datos que la distinguen. Está pensado para personas jóvenes y adultas interesadas en perfumería que quieren conocer la marca antes de consultar por un producto.
+
+Decisiones de diseño
+Usé azul noche, azul medianoche y dorado, con marfil para los textos claros. El azul remite a la noche, momento en que suelen usarse los perfumes elegantes, y el dorado recuerda las tapas y detalles de los frascos de gama alta. Además, el texto claro sobre fondo oscuro tiene muy buen contraste y se lee bien. La tipografía combina Playfair Display, una serif elegante para el logo y los títulos, con Montserrat, más simple, para los párrafos y el menú. Organicé las secciones en un orden lógico: presentación, información de la marca, galería con tarjetas, datos destacados, enlace externo y contacto. Las imágenes son frascos de perfume sobre fondos oscuros, para mantener un estilo sobrio y elegante en todo el sitio.
+
+Herramientas utilizadas
+Con HTML armé la estructura y el contenido, usando etiquetas semánticas. Con CSS di el estilo: variables, Flexbox, Grid y un diseño mobile first que se adapta a celular, tablet y computadora. Usé Git y GitHub para guardar y versionar el proyecto, y GitHub Pages para publicarlo en internet.
+
+Dificultades encontradas
+Mi mayor dificultad fue que las imágenes no se veían. Descargué las fotos y quedaron con doble extensión (.jpg.webp) y en una carpeta distinta de la que indicaba el HTML, así que el navegador no las encontraba. Lo resolví renombrando los archivos, ubicándolos en la carpeta correcta y revisando que cada ruta coincidiera. También tuve un error al subir el código con Git: en Windows las comillas simples no agrupaban el mensaje del commit. Lo solucioné usando comillas dobles.
+
+Aprendizaje obtenido
+Aprendí a estructurar una página con etiquetas semánticas, a diseñar primero para celular, a usar variables CSS y a trabajar con Git y GitHub. También aprendí que los nombres y las rutas de los archivos deben ser exactos.
